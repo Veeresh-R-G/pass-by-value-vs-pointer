@@ -16,6 +16,9 @@
 
 - How do I know this ? I checked the assembly code which is generated when we compile the program. Take a look at this :
 
+'''
+go tool compile -N -S -l main.go
+'''
 ![alt text](image-2.png)
 
 1. The value of the Stack pointer is stored in a destination register
